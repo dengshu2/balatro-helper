@@ -4,7 +4,7 @@
   "type_code": [
     "..."
   ],
-  "count": 6,
+  "count": 5,
   "jokers": [
     {
       "nr": 115,
@@ -19,8 +19,24 @@
       "type_cn": "复用卡牌",
       "activation": "On Scored",
       "tier": "S",
-      "score": 9.8,
-      "expert_review": "复用里面最平滑最强的。"
+      "score": 8.0,
+      "expert_review": "最强复用，泛用性最强，缺点是没配合就没用。"
+    },
+    {
+      "nr": 109,
+      "id": "j_sock_and_buskin",
+      "name_en": "Sock and Buskin",
+      "name_cn": "喜与悲",
+      "effect": "Retrigger all played face cards",
+      "cost": 6,
+      "rarity": "Uncommon",
+      "unlock": "Play a total of 300 face cards",
+      "type": "...",
+      "type_cn": "复用卡牌",
+      "activation": "On Scored",
+      "tier": "B",
+      "score": 4.5,
+      "expert_review": "配合和泛用性强于烂脱口秀演员，但会被植物针对。"
     },
     {
       "nr": 28,
@@ -35,30 +51,14 @@
       "type_cn": "复用卡牌",
       "activation": "On Scored",
       "tier": "A",
-      "score": 7.2,
-      "expert_review": "是所有复用里最弱的，只能打最后一手。"
-    },
-    {
-      "nr": 109,
-      "id": "j_sock_and_buskin",
-      "name_en": "Sock and Buskin",
-      "name_cn": "悲喜剧",
-      "effect": "Retrigger all played face cards",
-      "cost": 6,
-      "rarity": "Uncommon",
-      "unlock": "Play a total of 300 face cards",
-      "type": "...",
-      "type_cn": "复用卡牌",
-      "activation": "On Scored",
-      "tier": "S",
-      "score": 10.0,
-      "expert_review": "又是平滑又是复用，数值极其的高。"
+      "score": 7.0,
+      "expert_review": "作为复用仅次于选票，很有设计感，稳定复用。"
     },
     {
       "nr": 36,
       "id": "j_hack",
       "name_en": "Hack",
-      "name_cn": "黑客",
+      "name_cn": "烂脱口秀演员",
       "effect": "Retrigger each played 2, 3, 4, or 5",
       "cost": 6,
       "rarity": "Uncommon",
@@ -66,25 +66,9 @@
       "type": "...",
       "type_cn": "复用卡牌",
       "activation": "On Scored",
-      "tier": "A",
-      "score": 7.8,
-      "expert_review": "所有的数字都可以复用，极其离谱。"
-    },
-    {
-      "nr": 19,
-      "id": "j_mime",
-      "name_en": "Mime",
-      "name_cn": "哑剧演员",
-      "effect": "Retrigger all card held in hand abilities",
-      "cost": 5,
-      "rarity": "Uncommon",
-      "unlock": "Available from start.",
-      "type": "...",
-      "type_cn": "复用卡牌",
-      "activation": "On Held",
       "tier": "B",
-      "score": 6.5,
-      "expert_review": "本身很强，但是受牌型限制，没有钢牌和黄金牌它就是一个白板。"
+      "score": 5.2,
+      "expert_review": "作为复用配合少、配合差，泛用性较差。"
     },
     {
       "nr": 102,
@@ -98,9 +82,9 @@
       "type": "...",
       "type_cn": "复用卡牌",
       "activation": "On Scored",
-      "tier": "B",
-      "score": 5.1,
-      "expert_review": "一样，有次数限制，基本上是一个注。"
+      "tier": "C",
+      "score": 3.8,
+      "expert_review": "适用性很差，极看时机，临时里的上下限极大。"
     }
   ]
 }

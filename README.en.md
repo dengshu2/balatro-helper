@@ -26,7 +26,7 @@ A Joker card lookup and rating tool built for [Balatro](https://www.playbalatro.
 
 ```bash
 # Clone the repository
-git clone https://github.com/dengshu/balatro-helper.git
+git clone https://github.com/dengshu2/balatro-helper.git
 cd balatro-helper
 
 # Install dependencies

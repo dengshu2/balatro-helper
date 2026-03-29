@@ -26,7 +26,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/dengshu/balatro-helper.git
+git clone https://github.com/dengshu2/balatro-helper.git
 cd balatro-helper
 
 # 安装依赖

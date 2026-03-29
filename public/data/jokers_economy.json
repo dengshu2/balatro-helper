@@ -4,8 +4,40 @@
   "type_code": [
     "+$"
   ],
-  "count": 18,
+  "count": 21,
   "jokers": [
+    {
+      "nr": 83,
+      "id": "j_mailin_rebate",
+      "name_en": "Mail-In Rebate",
+      "name_cn": "邮件回扣",
+      "effect": "Earn $5 for each discarded [rank], rank changes every round",
+      "cost": 4,
+      "rarity": "Common",
+      "unlock": "Available from start.",
+      "type": "+$",
+      "type_cn": "经济丑",
+      "activation": "On Discard",
+      "tier": "S",
+      "score": 10.0,
+      "expert_review": "数值最高的经济小丑，最强经济。"
+    },
+    {
+      "nr": 76,
+      "id": "j_midas_mask",
+      "name_en": "Midas Mask",
+      "name_cn": "迈达斯面具",
+      "effect": "All played face cards become Gold cards when scored",
+      "cost": 7,
+      "rarity": "Uncommon",
+      "unlock": "Available from start.",
+      "type": "+$",
+      "type_cn": "经济丑",
+      "activation": "On Played",
+      "tier": "S",
+      "score": 9.9,
+      "expert_review": "最强经济之一，赚完钱就可以卖了。"
+    },
     {
       "nr": 42,
       "id": "j_business_card",
@@ -19,8 +51,8 @@
       "type_cn": "经济丑",
       "activation": "On Scored",
       "tier": "A",
-      "score": 7.6,
-      "expert_review": "概率性的赚2块。"
+      "score": 7.8,
+      "expert_review": "上限高、下限高的经济，而且是实时的经济，值得永恒。"
     },
     {
       "nr": 74,
@@ -34,9 +66,9 @@
       "type": "+$",
       "type_cn": "经济丑",
       "activation": "N/A",
-      "tier": "B",
-      "score": 4.3,
-      "expert_review": "成长太慢了，而且只有打完Boss才给钱。"
+      "tier": "A",
+      "score": 7.7,
+      "expert_review": "前两周拿来，后期无敌，故障机器人卡启动后最强。"
     },
     {
       "nr": 95,
@@ -51,8 +83,8 @@
       "type_cn": "经济丑",
       "activation": "On Discard",
       "tier": "A",
-      "score": 7.3,
-      "expert_review": "配合多数值高。"
+      "score": 7.5,
+      "expert_review": "有经济有删牌，但是前期影响数值。"
     },
     {
       "nr": 57,
@@ -68,13 +100,13 @@
       "activation": "On Discard",
       "tier": "A",
       "score": 7.0,
-      "expert_review": "每回合赚5块也很强。"
+      "expert_review": "5 到 10 块钱，数值高、适用期不短，是优质的经济。"
     },
     {
       "nr": 73,
       "id": "j_cloud_9",
       "name_en": "Cloud 9",
-      "name_cn": "9霄云外",
+      "name_cn": "九宵云外",
       "effect": "Earn $1 for each 9 in your full deck at end of round (Currently $4)",
       "cost": 7,
       "rarity": "Uncommon",
@@ -83,8 +115,8 @@
       "type_cn": "经济丑",
       "activation": "N/A",
       "tier": "A",
-      "score": 7.8,
-      "expert_review": "每张9给1块，同理，前三张9就可以拿。"
+      "score": 7.0,
+      "expert_review": "有下限有上限，但比不过名片，可以为其构建卡组。"
     },
     {
       "nr": 82,
@@ -98,12 +130,12 @@
       "type": "+$",
       "type_cn": "经济丑",
       "activation": "On Held",
-      "tier": "S",
-      "score": 9.5,
-      "expert_review": "配合非常多。"
+      "tier": "A",
+      "score": 7.0,
+      "expert_review": "数值很高，一手赚 3.5 元，拿了可以直接去玩高牌。"
     },
     {
-      "nr": 107,
+      "nr": 90,
       "id": "j_golden_joker",
       "name_en": "Golden Joker",
       "name_cn": "黄金小丑",
@@ -114,15 +146,31 @@
       "type": "+$",
       "type_cn": "经济丑",
       "activation": "N/A",
-      "tier": "S",
-      "score": 9.2,
-      "expert_review": "最简单最稳定的经济源。"
+      "tier": "A",
+      "score": 6.9,
+      "expert_review": "稳赚。"
+    },
+    {
+      "nr": 143,
+      "id": "j_astronomer",
+      "name_en": "Astronomer",
+      "name_cn": "天文学家",
+      "effect": "All Planet cards and Celestial Packs in the shop are free",
+      "cost": 8,
+      "rarity": "Uncommon",
+      "unlock": "Discover every Planet card",
+      "type": "+$",
+      "type_cn": "经济丑",
+      "activation": "N/A",
+      "tier": "A",
+      "score": 6.6,
+      "expert_review": "本身太贵，但实际前期能帮你省很多钱，是不太直观的经济。"
     },
     {
       "nr": 60,
       "id": "j_to_do_list",
       "name_en": "To Do List",
-      "name_cn": "待办清单",
+      "name_cn": "代办清单",
       "effect": "Earn $4 if poker hand is a [Poker Hand], poker hand changes at end of round",
       "cost": 4,
       "rarity": "Common",
@@ -130,9 +178,41 @@
       "type": "+$",
       "type_cn": "经济丑",
       "activation": "On Played",
+      "tier": "A",
+      "score": 6.4,
+      "expert_review": "中前期很不稳定的经济，比较限制牌型。"
+    },
+    {
+      "nr": 129,
+      "id": "j_matador",
+      "name_en": "Matador",
+      "name_cn": "斗牛士",
+      "effect": "Earn $8 if played hand triggers the Boss Blind ability",
+      "cost": 7,
+      "rarity": "Uncommon",
+      "unlock": "Defeat a Boss Blind in 1 hand without using any discards",
+      "type": "+$",
+      "type_cn": "经济丑",
+      "activation": "Indep.",
       "tier": "B",
-      "score": 6.8,
-      "expert_review": "配合多数值高，就是需要换各种牌型。"
+      "score": 5.8,
+      "expert_review": "一旦能赚，可以瞬间翻身拯救狗屎局，但很可能赚不了。"
+    },
+    {
+      "nr": 116,
+      "id": "j_rough_gem",
+      "name_en": "Rough Gem",
+      "name_cn": "璞玉",
+      "effect": "Played cards with  Diamond suit earn $1 when scored",
+      "cost": 7,
+      "rarity": "Uncommon",
+      "unlock": "Have at least 30 cards with Diamond suit in your deck",
+      "type": "+$",
+      "type_cn": "经济丑",
+      "activation": "On Scored",
+      "tier": "B",
+      "score": 5.5,
+      "expert_review": "适用期太短，数值中规中矩。"
     },
     {
       "nr": 46,
@@ -147,40 +227,56 @@
       "type_cn": "经济丑",
       "activation": "N/A",
       "tier": "B",
-      "score": 5.5,
-      "expert_review": "一旦能赚可以瞬间翻身，也可能赚不了。"
+      "score": 4.6,
+      "expert_review": "很多情况下一张局都找不到节制等配合，是较差的经济。"
     },
     {
-      "nr": 83,
-      "id": "j_mailin_rebate",
-      "name_en": "Mail-In Rebate",
-      "name_cn": "邮件回扣",
-      "effect": "Earn $5 for each discarded [rank], rank changes every round",
+      "nr": 79,
+      "id": "j_gift_card",
+      "name_en": "Gift Card",
+      "name_cn": "临时卡",
+      "effect": "Add $1 of sell value to every Joker and Consumable card at end of round",
+      "cost": 6,
+      "rarity": "Uncommon",
+      "unlock": "Available from start.",
+      "type": "+$",
+      "type_cn": "经济丑",
+      "activation": "N/A",
+      "tier": "B",
+      "score": 4.6,
+      "expert_review": "不直观的经济，就是一个大鸡蛋，但是卖得比蛋贵。"
+    },
+    {
+      "nr": 84,
+      "id": "j_to_the_moon",
+      "name_en": "To the Moon",
+      "name_cn": "重塑月球",
+      "effect": "Earn an extra $1 of interest for every $5 you have at end of round",
+      "cost": 5,
+      "rarity": "Uncommon",
+      "unlock": "Available from start.",
+      "type": "+$",
+      "type_cn": "经济丑",
+      "activation": "N/A",
+      "tier": "B",
+      "score": 4.5,
+      "expert_review": "下限完全没有，上限也就 5 块，不强。"
+    },
+    {
+      "nr": 30,
+      "id": "j_chaos_the_clown",
+      "name_en": "Chaos the Clown",
+      "name_cn": "混沌小丑",
+      "effect": "1 free Reroll per shop",
       "cost": 4,
       "rarity": "Common",
       "unlock": "Available from start.",
       "type": "+$",
       "type_cn": "经济丑",
-      "activation": "On Discard",
-      "tier": "B",
-      "score": 5.8,
-      "expert_review": "也是很好的经济，配合弃牌。"
-    },
-    {
-      "nr": 129,
-      "id": "j_matador",
-      "name_en": "Matador",
-      "name_cn": "斗牛士",
-      "effect": "Earn $8 if played hand triggers the Boss Blind ability",
-      "cost": 7,
-      "rarity": "Uncommon",
-      "unlock": "Defeat a Boss Blind in 1 hand without using any discards",
-      "type": "+$",
-      "type_cn": "经济丑",
-      "activation": "Indep.",
-      "tier": "S",
-      "score": 9.1,
-      "expert_review": "很吃理解的卡，上限极高，下限不稳定。"
+      "activation": "N/A",
+      "tier": "C",
+      "score": 3.5,
+      "expert_review": "刷新的作用肯定不如 5 块钱，是很差的经济。"
     },
     {
       "nr": 139,
@@ -194,56 +290,8 @@
       "type": "+$",
       "type_cn": "经济丑",
       "activation": "N/A",
-      "tier": "S",
-      "score": 9.8,
-      "expert_review": "配合很多，即使是普通的同花这种不需要很多星球牌的牌型也是可以配合的。"
-    },
-    {
-      "nr": 84,
-      "id": "j_to_the_moon",
-      "name_en": "To the Moon",
-      "name_cn": "冲向月球",
-      "effect": "Earn an extra $1 of interest for every $5 you have at end of round",
-      "cost": 5,
-      "rarity": "Uncommon",
-      "unlock": "Available from start.",
-      "type": "+$",
-      "type_cn": "经济丑",
-      "activation": "N/A",
       "tier": "C",
-      "score": 1.8,
-      "expert_review": "下限完全没有，上限也就五块，不强。"
-    },
-    {
-      "nr": 116,
-      "id": "j_rough_gem",
-      "name_en": "Rough Gem",
-      "name_cn": "璞玉",
-      "effect": "Played cards with  Diamond suit earn $1 when scored",
-      "cost": 7,
-      "rarity": "Uncommon",
-      "unlock": "Have at least 30 cards with Diamond suit in your deck",
-      "type": "+$",
-      "type_cn": "经济丑",
-      "activation": "On Scored",
-      "tier": "C",
-      "score": 3.5,
-      "expert_review": "不稳定的经济，刷新的作用肯定不如5块。"
-    },
-    {
-      "nr": 79,
-      "id": "j_gift_card",
-      "name_en": "Gift Card",
-      "name_cn": "礼品卡",
-      "effect": "Add $1 of sell value to every Joker and Consumable card at end of round",
-      "cost": 6,
-      "rarity": "Uncommon",
-      "unlock": "Available from start.",
-      "type": "+$",
-      "type_cn": "经济丑",
-      "activation": "N/A",
-      "tier": "D",
-      "score": 2.2,
+      "score": 3.0,
       "expert_review": "非常难用，比较看旁边有没有星球。"
     },
     {
@@ -258,9 +306,9 @@
       "type": "+$",
       "type_cn": "经济丑",
       "activation": "N/A",
-      "tier": "D",
-      "score": 1.2,
-      "expert_review": "能玩就狗水局，但绝大部分后期没有用处，纯占商店位置。"
+      "tier": "C",
+      "score": 2.5,
+      "expert_review": "能拯救狗屎局，但绝大部分时候没用，纯占商店位置。"
     },
     {
       "nr": 35,
@@ -276,7 +324,7 @@
       "activation": "N/A",
       "tier": "D",
       "score": 1.1,
-      "expert_review": "买了未能回本的东西，上限没有下限没有，最差经济。"
+      "expert_review": "买了不一定能回本的东西，上下限都没有，最差经济。"
     },
     {
       "nr": 106,
@@ -291,8 +339,8 @@
       "type_cn": "经济丑",
       "activation": "On Scored",
       "tier": "D",
-      "score": 2.5,
-      "expert_review": "达了黄金牌就不剩什么了，都不应能回本。"
+      "score": 0.5,
+      "expert_review": "意义不明，打了黄金牌它就不生效了，都不一定能回本。"
     }
   ]
 }

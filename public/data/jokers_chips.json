@@ -2,9 +2,10 @@
   "category": "筹码丑",
   "category_en": "Chips",
   "type_code": [
-    "+c"
+    "+c",
+    "!!"
   ],
-  "count": 19,
+  "count": 22,
   "jokers": [
     {
       "nr": 136,
@@ -37,6 +38,38 @@
       "tier": "S",
       "score": 9.1,
       "expert_review": "数值怪物。"
+    },
+    {
+      "nr": 144,
+      "id": "j_burnt_joker",
+      "name_en": "Burnt Joker",
+      "name_cn": "烧焦小丑",
+      "effect": "Upgrade the level of the first discarded poker hand each round",
+      "cost": 8,
+      "rarity": "Rare",
+      "unlock": "Sell 50 cards.",
+      "type": "!!",
+      "type_cn": "筹码丑",
+      "activation": "On Discard",
+      "tier": "S",
+      "score": 9.0,
+      "expert_review": "单卡可以解决大半的问题，神卡"
+    },
+    {
+      "nr": 45,
+      "id": "j_space_joker",
+      "name_en": "Space Joker",
+      "name_cn": "太空小丑",
+      "effect": "1 in 4 chance to upgrade level of played poker hand",
+      "cost": 5,
+      "rarity": "Uncommon",
+      "unlock": "Available from start.",
+      "type": "!!",
+      "type_cn": "筹码丑",
+      "activation": "On Played",
+      "tier": "A",
+      "score": 6.4,
+      "expert_review": "SL和NOSL差别极大，大牌型SL可以用。"
     },
     {
       "nr": 33,
@@ -138,7 +171,7 @@
       "nr": 50,
       "id": "j_ice_cream",
       "name_en": "Ice Cream",
-      "name_cn": "冰淇米",
+      "name_cn": "冰淇淋",
       "effect": "+100 Chips -5 Chips for every hand played",
       "cost": 5,
       "rarity": "Common",
@@ -277,6 +310,22 @@
       "tier": "D",
       "score": 0.0,
       "expert_review": "数值跟没有一样，起码翻4倍才能用。"
+    },
+    {
+      "nr": 24,
+      "id": "j_marble_joker",
+      "name_en": "Marble Joker",
+      "name_cn": "大理石小丑",
+      "effect": "Adds one Stone card to the deck when Blind is selected",
+      "cost": 6,
+      "rarity": "Uncommon",
+      "unlock": "Available from start.",
+      "type": "!!",
+      "type_cn": "筹码丑",
+      "activation": "On Blind Select",
+      "tier": "D",
+      "score": 0.6,
+      "expert_review": "狗屎，前期没用，后期污染牌库。"
     },
     {
       "nr": 14,

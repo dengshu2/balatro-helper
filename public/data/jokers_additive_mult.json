@@ -51,9 +51,9 @@
       "type": "+m",
       "type_cn": "倍率丑（加算）",
       "activation": "Indep.",
-      "tier": "A",
-      "score": 7.8,
-      "expert_review": "8倍率数值几乎不太会亏，即使上限又能成为终端，全局都有发挥"
+      "tier": "B",
+      "score": 4.0,
+      "expert_review": "没配合的话比抽象小丑弱，有配合就有终端潜质，比抽象小丑弱一档"
     },
     {
       "nr": 98,
@@ -563,9 +563,9 @@
       "type": "+m",
       "type_cn": "倍率丑（加算）",
       "activation": "Indep.",
-      "tier": "S",
-      "score": 9.8,
-      "expert_review": "配合很多，即使是普通的同花这种不需要很多星球牌的牌型也是可以配合的。"
+      "tier": "C",
+      "score": 3.5,
+      "expert_review": "全局成长，但是太难发力，成长慢，数值低"
     }
   ]
 }
