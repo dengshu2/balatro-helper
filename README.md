@@ -6,6 +6,8 @@
 
 一个为 [Balatro](https://www.playbalatro.com/) 玩家打造的小丑牌（Joker）查询与评分工具。收录全部 **150 张小丑牌**，按功能分类，附带 Tier 评级、专家点评和详细效果说明，帮助你在游戏中做出更明智的选牌决策。
 
+🌐 **在线访问**：[balatro-helper.dengshu.ovh](https://balatro-helper.dengshu.ovh)
+
 ## ✨ 功能特性
 
 - 🔍 **搜索** — 支持中英文名称、分类关键词实时搜索
@@ -46,6 +48,21 @@ npm run build
 
 构建产物输出到 `dist/` 目录，可直接部署到任何静态托管平台（Vercel、Netlify、GitHub Pages 等）。
 
+### Docker 部署
+
+```bash
+# 构建并启动
+docker compose up -d --build
+
+# 查看状态
+docker ps --filter name=balatro-helper
+
+# 停止
+docker compose down
+```
+
+容器默认监听 `127.0.0.1:3004`，通过 Nginx Proxy Manager 反代到 `balatro-helper.dengshu.ovh`。
+
 ## 📁 项目结构
 
 ```
@@ -64,6 +81,9 @@ balatro-helper/
 │   ├── App.tsx                 # 主应用组件
 │   ├── index.css               # 全局样式
 │   └── main.tsx                # 入口文件
+├── Dockerfile                  # 多阶段构建（Node → Nginx）
+├── docker-compose.yml          # Docker Compose 编排
+├── nginx.conf                  # Nginx 生产配置
 ├── index.html
 ├── package.json
 ├── tsconfig.json
@@ -82,6 +102,13 @@ balatro-helper/
 - **构建**：[Vite](https://vite.dev/) 8
 - **样式**：Vanilla CSS（暗色主题）
 - **字体**：[Inter](https://fonts.google.com/specimen/Inter)（Google Fonts）
+- **部署**：Docker + Nginx
+
+## 📋 TODO
+
+- [ ] **首屏落地页** — 新增介绍型 Landing Page，展示项目用途与亮点
+  - [ ] 核心元素：TierMaker 风格的完整 Joker Tier 排名图（参考 [TierMaker Balatro Joker Tier List](https://tiermaker.com/categories/video-games/balatro-joker-tier-list-version-101f-17122176)），按 S/A/B/C/D 横行排列所有 150 张小丑牌缩略图，每行使用对应 Tier 的标志色
+  - [ ] 页面底部 CTA 引导用户进入详细查询工具
 
 ## 📄 License
 

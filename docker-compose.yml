@@ -1,0 +1,16 @@
+services:
+  balatro-helper:
+    build:
+      context: .
+      args:
+        VITE_UMAMI_WEBSITE_ID: ${VITE_UMAMI_WEBSITE_ID}
+    container_name: balatro-helper
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3004:80"   # 仅本地访问，由 NPM 反代
+    networks:
+      - npm-network
+
+networks:
+  npm-network:
+    external: true
